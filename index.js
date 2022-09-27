@@ -1,5 +1,5 @@
 async function getResumesList() {
-    const resumeList = await axios.get(`${location.href}resume-list.json`)
+    const resumeList = await axios.get('/resumes-college/resume-list.json')
 
     return resumeList.data
 }
