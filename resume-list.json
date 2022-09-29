@@ -30,5 +30,10 @@
         "name": "Reino Protista",
         "subject": "Biologia B",
         "source": "/resumes/biologia/reino_protista.html"
+    },
+    {
+        "name": "Reino Fungi",
+        "subject": "Biologia B",
+        "source": "/resumes/biologia/reino_fungi.html"
     }
 ]
