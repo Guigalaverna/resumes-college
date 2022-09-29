@@ -1,39 +1,39 @@
 [
-    {
-        "name": "Brasil Colônia",
-        "subject": "História",
-        "source": "/resumes/historia/periodo_colonial.html"
-    },
-    
-    {
-        "name": "Funções",
-        "subject": "Matemática A",
-        "source": "/resumes/matematica/funcoes.html"
-    },
+  {
+    "name": "Brasil Colônia",
+    "subject": "História",
+    "source": "/documents/resumes/historia/periodo_colonial.html"
+  },
 
-    {
-        "name": "Passagem de substâncias",
-        "subject": "Biologia",
-        "source": "/resumes/biologia/passagem_de_substancias.html"
-    },
-    {
-        "name": "Membrana Plasmática",
-        "subject": "Biologia B",
-        "source": "/resumes/biologia/membrana_plasmatica.html"
-    },
-    {
-        "name": "Vitaminas",
-        "subject": "Biologia B",
-        "source": "/resumes/biologia/vitaminas.html"
-    },
-    {
-        "name": "Reino Protista",
-        "subject": "Biologia B",
-        "source": "/resumes/biologia/reino_protista.html"
-    },
-    {
-        "name": "Reino Fungi",
-        "subject": "Biologia B",
-        "source": "/resumes/biologia/reino_fungi.html"
-    }
+  {
+    "name": "Funções",
+    "subject": "Matemática A",
+    "source": "/documents/resumes/matematica/funcoes.html"
+  },
+
+  {
+    "name": "Passagem de substâncias",
+    "subject": "Biologia B",
+    "source": "/documents/resumes/biologia/passagem_de_substancias.html"
+  },
+  {
+    "name": "Membrana Plasmática",
+    "subject": "Biologia B",
+    "source": "/documents/resumes/biologia/membrana_plasmatica.html"
+  },
+  {
+    "name": "Vitaminas",
+    "subject": "Biologia B",
+    "source": "/documents/resumes/biologia/vitaminas.html"
+  },
+  {
+    "name": "Reino Protista",
+    "subject": "Biologia A",
+    "source": "/documents/resumes/biologia/reino_protista.html"
+  },
+  {
+    "name": "Reino Fungi",
+    "subject": "Biologia A",
+    "source": "/documents/resumes/biologia/reino_fungi.html"
+  }
 ]

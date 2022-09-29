@@ -1,23 +1,50 @@
 async function getResumesList() {
-    const resumeList = await axios.get('/resumes-college/resume-list.json')
+  const resumeList = await axios.get("/resumes-college/resume-list.json");
 
-    return resumeList.data
+  return resumeList.data;
 }
 
 async function populatePage() {
-    const listElement = document.querySelector('ul')
+  const listElement = document.querySelector("ul");
 
-    const resumeList = await getResumesList()
+  const resumeList = await getResumesList();
 
-    resumeList.map(resumeItem => {
-        const listItemElement = document.createElement('li')
+  resumeList.map(resumeItem => {
+    const listItemElement = document.createElement("li");
 
-        listItemElement.innerHTML = `<a href="/resumes-college/${resumeItem.source}">${resumeItem.subject} - ${resumeItem.name}</a>`
+    listItemElement.innerHTML = `<a href="/resumes-college/${resumeItem.source}">${resumeItem.subject} - ${resumeItem.name}</a>`;
 
-        listElement.appendChild(listItemElement)
-    })
-
-    
+    listElement.appendChild(listItemElement);
+  });
 }
 
-populatePage()
+async function changeFilter() {
+  const filter = document.querySelector("select").value;
+
+  if (filter !== "null") {
+    const resumeList = await getResumesList();
+    const listElement = document.querySelector("ul");
+
+    listElement.innerHTML = "";
+
+    const newResumeList = resumeList.filter(i => {
+      if (i.subject !== filter) {
+        return false;
+      } else {
+        return true;
+      }
+    });
+
+    newResumeList.map(resumeItem => {
+      const listItemElement = document.createElement("li");
+
+      listItemElement.innerHTML = `<a href="/resumes-college/${resumeItem.source}">${resumeItem.subject} - ${resumeItem.name}</a>`;
+
+      listElement.appendChild(listItemElement);
+    });
+  } else {
+    populatePage();
+  }
+}
+
+populatePage();
