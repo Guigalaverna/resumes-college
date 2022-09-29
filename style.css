@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+html {
+  background: #121214;
+}
+
 body {
   background: #121214;
   color: white;
