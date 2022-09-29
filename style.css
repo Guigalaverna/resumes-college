@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #121214;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 1120px;
+  margin: 0 auto;
+
+  padding-top: 2rem;
+}
+
+body main header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body main header h2 {
+  font-size: 1.2rem;
+  color: #52525c;
+  font-weight: 500;
+}
+
+body main section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body main section form select {
+  padding: 1rem 2rem;
+  background: #2e2e33;
+  font-weight: 600;
+  border-radius: 8px;
+  color: white;
+  border: 2px solid transparent;
+}
+
+body main section form select:focus {
+  border: 2px solid #7159c1;
+}
+
+body main section ul {
+  margin-top: 2rem;
+  list-style-type: none;
+}
+
+body main section ul li {
+  padding: 1rem;
+  background: #2e2e33;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+body main section ul li::after {
+  content: url("./assets/arrow-right-circle.svg");
+
+  margin-left: 2rem;
+  font-size: 0;
+  background: #7159c1;
+  stroke: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
