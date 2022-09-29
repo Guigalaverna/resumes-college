@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"Reino Protista","children":[{"type":"bullet_list","depth":1,"payload":{"lines":[2,4]},"content":"","children":[{"type":"list_item","depth":2,"payload":{"lines":[2,3]},"content":"Reino em que os protozoários se encaixam"}]},{"type":"heading","depth":1,"payload":{"lines":[4,5]},"content":"Protozoários","children":[{"type":"list_item","depth":2,"payload":{"lines":[6,7]},"content":"Seres eucariontes"},{"type":"list_item","depth":2,"payload":{"lines":[7,8]},"content":"Possuem diversas formas","children":[{"type":"list_item","depth":3,"payload":{"lines":[8,9]},"content":"Esféricos"},{"type":"list_item","depth":3,"payload":{"lines":[9,10]},"content":"Alongados"},{"type":"list_item","depth":3,"payload":{"lines":[10,11]},"content":"Ovais"}]},{"type":"list_item","depth":2,"payload":{"lines":[11,12]},"content":"Podem apresentar diferenças dependendo da fase de desenvolvimento e do meio que habitam"}]},{"type":"heading","depth":1,"payload":{"lines":[13,14]},"content":"Modo de vida","children":[{"type":"list_item","depth":2,"payload":{"lines":[14,15]},"content":"Podem de ser vida livre, parasitas, mutualistas e comensais"},{"type":"list_item","depth":2,"payload":{"lines":[15,16]},"content":"Habitam ambientes aquáticos (água salgada ou doce), terrestres úmidos ou parasitando em outros organismos"}]},{"type":"heading","depth":1,"payload":{"lines":[17,18]},"content":"Fisiologia","children":[{"type":"list_item","depth":2,"payload":{"lines":[19,20]},"content":"Digestão intracelular"},{"type":"list_item","depth":2,"payload":{"lines":[20,21]},"content":"Trocas gasosas e eliminação de excreções são feitas por difusão"},{"type":"list_item","depth":2,"payload":{"lines":[21,22]},"content":"A reprodução pode ser assexuada (cissiparidade ou bipartição) ou sexuada (conjugação)"}]},{"type":"heading","depth":1,"payload":{"lines":[23,24]},"content":"Classificação","children":[{"type":"bullet_list","depth":2,"payload":{"lines":[25,27]},"content":"","children":[{"type":"list_item","depth":3,"payload":{"lines":[25,26]},"content":"A classificação é realizada de acordo com o tipo de estrutura de locomoção"}]},{"type":"heading","depth":2,"payload":{"lines":[27,28]},"content":"Sarcodina (Rhizopoda)","children":[{"type":"list_item","depth":3,"payload":{"lines":[29,30]},"content":"Estrutura: Pseudópodes"}]},{"type":"heading","depth":2,"payload":{"lines":[31,32]},"content":"Ciliados (Ciliophora)","children":[{"type":"list_item","depth":3,"payload":{"lines":[33,34]},"content":"Estrutura: Cílios"}]},{"type":"heading","depth":2,"payload":{"lines":[35,36]},"content":"Flagelados (Mastigophora)","children":[{"type":"list_item","depth":3,"payload":{"lines":[37,38]},"content":"Estrutura: Flagelos"}]},{"type":"heading","depth":2,"payload":{"lines":[39,40]},"content":"Esporozoários (Apicomplexa)","children":[{"type":"list_item","depth":3,"payload":{"lines":[41,42]},"content":"Não apresenta estrutura locomotora"}]}]},{"type":"heading","depth":1,"payload":{"lines":[43,44]},"content":"Algas","children":[{"type":"bullet_list","depth":2,"payload":{"lines":[45,50]},"content":"","children":[{"type":"list_item","depth":3,"payload":{"lines":[45,46]},"content":"O termo “alga” é utilizado para designar organismos eucarióticos, uni ou multicelulares e autotróficos fotossintetizantes"},{"type":"list_item","depth":3,"payload":{"lines":[47,49]},"content":"Atualmente, as algas são classificadas artificialmente como organismos protistas, assim como os<br>\nprotozoários"}]},{"type":"heading","depth":2,"payload":{"lines":[50,51]},"content":"Habitat","children":[{"type":"list_item","depth":3,"payload":{"lines":[52,53]},"content":"Aquático","children":[{"type":"list_item","depth":4,"payload":{"lines":[53,54]},"content":"Marinho (Água salgada)"},{"type":"list_item","depth":4,"payload":{"lines":[54,55]},"content":"Dulcícola (Água doce)"}]},{"type":"list_item","depth":3,"payload":{"lines":[55,56]},"content":"Terrestre","children":[{"type":"list_item","depth":4,"payload":{"lines":[56,57]},"content":"Úmido"}]}]}]}]},{})</script>
+</body>
+</html>

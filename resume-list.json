@@ -25,5 +25,10 @@
         "name": "Vitaminas",
         "subject": "Biologia B",
         "source": "/resumes/biologia/vitaminas.html"
+    },
+    {
+        "name": "Reino Protista",
+        "subject": "Biologia B",
+        "source": "/resumes/biologia/reino_protista.html"
     }
 ]
