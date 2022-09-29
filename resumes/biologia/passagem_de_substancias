@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.3"></script><script>(getMarkmap => {
+        window.WebFontConfig = {
+          custom: {
+            families: ['KaTeX_AMS', 'KaTeX_Caligraphic:n4,n7', 'KaTeX_Fraktur:n4,n7', 'KaTeX_Main:n4,n7,i4,i7', 'KaTeX_Math:i4,i7', 'KaTeX_Script', 'KaTeX_SansSerif:n4,n7,i4', 'KaTeX_Size1', 'KaTeX_Size2', 'KaTeX_Size3', 'KaTeX_Size4', 'KaTeX_Typewriter']
+          },
+          active: () => {
+            getMarkmap().refreshHook.call();
+          }
+        };
+      })(() => window.markmap)</script><script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" defer></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[1,2]},"content":"Passagem de substâncias","children":[{"type":"heading","depth":1,"payload":{"lines":[3,4]},"content":"Difusão"},{"type":"heading","depth":1,"payload":{"lines":[5,6]},"content":"Difusão simples","children":[{"type":"list_item","depth":2,"payload":{"lines":[7,8]},"content":"Passagem do soluto do meio hipertônico parao meio hipotônico"},{"type":"list_item","depth":2,"payload":{"lines":[9,10]},"content":"Ex: Groselha num copo com água. A groselha possui uma concentração muito alta do soluto, com isso, o soluto irá para a água e ela terá uma coloração avermelhada, já que a groselha teve seu soluto diluído na água."}]},{"type":"heading","depth":1,"payload":{"lines":[12,13]},"content":"Osmose","children":[{"type":"bullet_list","depth":2,"payload":{"lines":[14,16]},"content":"","children":[{"type":"list_item","depth":3,"payload":{"lines":[14,15]},"content":"Passagem do solvente"}]},{"type":"heading","depth":2,"payload":{"lines":[16,17]},"content":"Meio isotônico","children":[{"type":"list_item","depth":3,"payload":{"lines":[18,19]},"content":"Situação quando os meios possuem a quantidade igual de solvente para o soluto"}]},{"type":"heading","depth":2,"payload":{"lines":[20,21]},"content":"Meio hipotônico","children":[{"type":"list_item","depth":3,"payload":{"lines":[22,23]},"content":"Situação em que um dos meios possui menos solvente em relação ao meio externo"}]},{"type":"heading","depth":2,"payload":{"lines":[24,25]},"content":"Meio hipertônico","children":[{"type":"list_item","depth":3,"payload":{"lines":[26,27]},"content":"Situação em que um dos meios possui mais solvente em relação ao meio externo"}]},{"type":"heading","depth":2,"payload":{"lines":[28,29]},"content":"Situações","children":[{"type":"heading","depth":3,"payload":{"lines":[30,31]},"content":"Célula Animal","children":[{"type":"list_item","depth":4,"payload":{"lines":[31,32]},"content":"Dado uma hemácia que possui 0,9% de soluto, se uma quantidade de <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mi>a</mi><mi>C</mi><mi>l</mi></mrow><annotation encoding=\"application/x-tex\">NaCl</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\" style=\"margin-right:0.01968em;\">Cl</span></span></span></span> for menor do que a que possui na hemácia, irá ocorrer a hemólise (quebra da hemácia) por causa que a agua do soro tentou entrar na hemácia e terminou estourando a hemácia"},{"type":"list_item","depth":4,"payload":{"lines":[33,34]},"content":"Se uma hemácia possui 0,9% de solute e o meio externo 1,2% de soluto, a água da célula ira sair para o meio com mais soluto. Dado isso, a célula irá murchar."}]},{"type":"heading","depth":3,"payload":{"lines":[35,36]},"content":"Célula Vegetal","children":[{"type":"list_item","depth":4,"payload":{"lines":[37,38]},"content":"Se a cél. vegetal tiver a mesma concentração de solvente em relação ao meio externo, ela ficará flácida."},{"type":"list_item","depth":4,"payload":{"lines":[39,40]},"content":"Se a cél. vegetal tiver uma concentração de solvente maior em relação ao meio externo, ela fica túngida já que o vacúlo da célula faz com que ela fique rígida."}]}]}]}]},{})</script>
+</body>
+</html>
