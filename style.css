@@ -63,16 +63,26 @@ body main section ul {
 }
 
 body main section ul li {
-  padding: 1rem;
+  padding: 2rem;
   background: #2e2e33;
   width: 100%;
   border-radius: 8px;
   display: flex;
 
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  text-align: left;
+  transition: filter 0.2s;
 }
+
+body main section ul li:hover {
+  filter: brightness(1.3);
+  transition: filter 0.2s;
+}
+
+body main section ul li:hover a {
+  color: #7159c1;
+}
+
 body main section ul li + li {
   margin-top: 2rem;
 }
