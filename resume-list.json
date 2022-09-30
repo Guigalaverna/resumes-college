@@ -4,13 +4,11 @@
     "subject": "História",
     "source": "/documents/resumes/historia/periodo_colonial.html"
   },
-
   {
     "name": "Funções",
     "subject": "Matemática A",
     "source": "/documents/resumes/matematica/funcoes.html"
   },
-
   {
     "name": "Passagem de substâncias",
     "subject": "Biologia B",
@@ -40,5 +38,10 @@
     "name": "Classificação de palavras nominais",
     "subject": "Análise Linguística",
     "source": "/documents/resumes/analise_linguistica/classe_palavras_nominais.html"
+  },
+  {
+    "name": "Trabalho de forças",
+    "subject": "Física B",
+    "source": "/documents/resumes/fisica/trabalho.html"
   }
 ]
