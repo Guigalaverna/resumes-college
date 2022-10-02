@@ -35,6 +35,15 @@ body main header h2 {
   font-weight: 500;
 }
 
+body main header a {
+  text-decoration: underline;
+  margin-top: 2rem;
+  color: #737382;
+
+  display: flex;
+  flex-direction: column;
+}
+
 body main section {
   margin-top: 2rem;
   display: flex;
