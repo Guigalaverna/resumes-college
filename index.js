@@ -12,7 +12,7 @@ async function populatePage() {
   resumeList.map(resumeItem => {
     const listItemElement = document.createElement("li");
 
-    listItemElement.innerHTML = `<a target='_blank' href="/resumes-college/${resumeItem.source}">${resumeItem.subject} - ${resumeItem.name}</a>`;
+    listItemElement.innerHTML = `<a target='_blank' href="/resumes-college${resumeItem.source}">${resumeItem.subject} - ${resumeItem.name}</a>`;
 
     listElement.appendChild(listItemElement);
   });

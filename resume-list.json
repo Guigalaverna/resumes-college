@@ -54,10 +54,14 @@
     "subject": "Geografia",
     "source": "/documents/resumes/geografia/clima.html"
   },
-
   {
     "name": "Competências",
     "subject": "Redação",
     "source": "/documents/resumes/redacao/competencias.html"
+  },
+  {
+    "name": "Arcadismo",
+    "subject": "Literatura",
+    "source": "/documents/resumes/literatura/arcadismo.html"
   }
 ]
