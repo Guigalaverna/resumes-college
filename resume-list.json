@@ -53,5 +53,11 @@
     "name": "Clima",
     "subject": "Geografia",
     "source": "/documents/resumes/geografia/clima.html"
+  },
+
+  {
+    "name": "Competências",
+    "subject": "Redação",
+    "source": "/documents/resumes/redacao/competencias.html"
   }
 ]
