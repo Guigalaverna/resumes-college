@@ -17,10 +17,8 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding: 1rem;
   margin: 0 auto;
 
-  padding-top: 2rem;
 }
 
 body main header {
@@ -29,13 +27,43 @@ body main header {
   align-items: center;
 }
 
+body main header nav {
+  background: #2e2e33;
+  width: 100%;
+  margin-bottom: 2rem;
+
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+body main header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+body main header nav ul li {
+  height: 24px;
+}
+
+body main header nav ul li a i{
+  font-size: 24px;
+}
+body main header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
 body main header h2 {
   font-size: 1.2rem;
   color: #52525c;
   font-weight: 500;
 }
 
-body main header a {
+body main header >  a {
   text-decoration: underline;
   margin-top: 2rem;
   color: #737382;

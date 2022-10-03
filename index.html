@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resumos do 1⁰ do EM - Anglo</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  </head>
-  <body>
-    <main>
-      <header>
-        <h1>Resumos</h1>
-        <h2>
-          Olá, seja bem-vindo aos meus resumos que eu fiz durante o 1⁰ do EM
-        </h2>
 
-        <a
-          href="https://drive.google.com/drive/folders/1n47dlkHiVRAnAdR5pYlgKNGQz6rJSqYu?usp=sharing"
-          target="_blank"
-          >Pasta com resumos em PDF</a
-        >
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resumos do 1⁰ do EM - Anglo</title>
+  <link rel="stylesheet" href="style.css" />
 
-      <section>
-        <form>
-          <select name="subject" id="subject" onchange="changeFilter()">
-            <option value="null">Todos</option>
-            <option value="Biologia A">Biologia A</option>
-            <option value="Biologia B">Biologia B</option>
-            <option value="Química A">Química A</option>
-            <option value="Química B">Química B</option>
-            <option value="Física A">Física A</option>
-            <option value="Física B">Física B</option>
-            <option value="Matemática A">Matemática A</option>
-            <option value="Matemática B">Matemática B</option>
-            <option value="Geografia">Geografia</option>
-            <option value="História">História</option>
-            <option value="Redação">Redação</option>
-            <option value="Análise Linguística">Análise Linguística</option>
-          </select>
-        </form>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <ul></ul>
-      </section>
-    </main>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
 
-    <section class="modal hidden">
-      <iframe src="" frameborder="0"></iframe>
+<body>
+  <main>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a target="_blank" href="https://github.com/Guigalaverna">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://instagram.com/galavernag">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <h1>Resumos</h1>
+      <h2>
+        Olá, seja bem-vindo aos meus resumos que eu fiz durante o 1⁰ do EM
+      </h2>
+
+      <a href="https://drive.google.com/drive/folders/1n47dlkHiVRAnAdR5pYlgKNGQz6rJSqYu?usp=sharing"
+        target="_blank">Pasta com resumos em PDF</a>
+    </header>
+
+    <section>
+      <form>
+        <select name="subject" id="subject" onchange="changeFilter()">
+          <option value="null">Todos</option>
+          <option value="Biologia A">Biologia A</option>
+          <option value="Biologia B">Biologia B</option>
+          <option value="Química A">Química A</option>
+          <option value="Química B">Química B</option>
+          <option value="Física A">Física A</option>
+          <option value="Física B">Física B</option>
+          <option value="Matemática A">Matemática A</option>
+          <option value="Matemática B">Matemática B</option>
+          <option value="Geografia">Geografia</option>
+          <option value="História">História</option>
+          <option value="Redação">Redação</option>
+          <option value="Análise Linguística">Análise Linguística</option>
+        </select>
+      </form>
+
+      <ul></ul>
     </section>
+  </main>
 
-    <script src="./index.js"></script>
-  </body>
+  <section class="modal hidden">
+    <iframe src="" frameborder="0"></iframe>
+  </section>
+
+  <script src="./index.js"></script>
+</body>
+
 </html>
