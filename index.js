@@ -5,7 +5,7 @@ async function getResumesList() {
 }
 
 async function populatePage() {
-  const listElement = document.querySelector("ul");
+  const listElement = document.querySelector("ul#list");
 
   const resumeList = await getResumesList();
 
